@@ -1,5 +1,10 @@
 #!/usr/bin/env python3
 
+'''
+Binary search (also known as half-search or logarithmic search) example.
+See wiki page for more details - https://en.wikipedia.org/wiki/Binary_search_algorithm
+'''
+
 def binary_search(list, item):
     low = 0
     high = len(list) - 1
